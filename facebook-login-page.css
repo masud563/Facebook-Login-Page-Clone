@@ -1,0 +1,150 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+body{
+    margin:0;
+    padding:0;
+}
+.upper{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content:space-evenly ;
+    background-color: #F0F2F5;
+    width:100%;
+    height: 780px;   
+}
+.left{
+    padding-top: 175px;
+    padding-left: 10px;
+}
+.left .fb-icon{
+    width:301px;
+}
+.left h2{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width:500px;
+    margin:0;
+    padding-left: 33px;
+    position: relative;
+    top:-11px;
+    left:-4px;
+}
+.right{
+    padding-top: 131px;
+    padding-left: 86px;
+}
+.login-palette{
+    width:396px;
+    height: 347px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:white;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    
+    
+}
+.email input{
+    width:330px;
+    border-style: solid;
+    border-color:#dddfe2;
+    border-width: 1px;
+    border-radius: 6px;
+    padding:14px 16px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    margin-left: 17.5px;
+    font-size: 17px;
+    color:#90949c;
+}
+.email input:focus{
+    color:black
+}
+.password input{
+    width:330px;
+    border-style: solid;
+    border-color:#dddfe2;
+    border-width: 1px;
+    border-radius: 6px;
+    padding:14px 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 17.5px;
+    font-size: 17px;
+    color:#90949c;
+}
+.password input:focus{
+    color:black;
+}
+.login-button input{
+    font-size: 20px;
+    font-weight:bold;
+    width:365px;
+    padding:14px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 17.5px;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.forgotten-password{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.forgotten-password a{
+    text-decoration: none;
+    margin-left: 140px;
+    color:#267ff2 ;
+    font-size: 14px;
+    font-weight: 500;
+}
+.forgotten-password a:hover{
+    text-decoration:underline;
+}
+.hr-line{
+    border-color:#dee1e4 ;
+    border-style:solid;
+    border-top-width: 1px;
+    border-bottom-width:0 ;
+    border-left-width: 0;
+    border-right-width: 0;
+    width:364px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.create-new-account button{
+    width:198px;
+    height: 48px;
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-left: 110px;
+    padding:14px 16px;
+    background-color: #42b72a;
+    border-style: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.create-page{
+    margin-top: 28px;
+    text-align: center;
+}
+.create-page a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.create-page a:hover{
+    text-decoration:underline;
+}
