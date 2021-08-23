@@ -11,7 +11,7 @@ body{
     grid-template-columns: 49% 49%;
     justify-content:space-evenly ;
     background-color: #F0F2F5;
-    width:100%;
+    min-width:auto;
     height: 780px;   
 }
 .left{
