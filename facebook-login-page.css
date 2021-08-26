@@ -137,7 +137,7 @@ body{
 }
 .create-page{
     margin-top: 28px;
-    text-align: center;
+    padding-left: 50px;
 }
 .create-page a{
     text-decoration: none;
